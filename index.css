@@ -1,0 +1,167 @@
+.comp-name {
+    text-align: center;
+}
+
+header {
+    background-color: teal;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-size: cover;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+
+    font-style: normal;
+}
+
+.nav-links a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+/*body*/
+
+main .main-contents {
+    display: flex;
+}
+
+main .main-contents .items1 {
+    padding: 4rem;
+}
+
+img {
+    width: 200px;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+img:hover {
+    background-color: red;
+    size: 30px;
+}
+
+main .items1 {
+    text-align: center;
+}
+
+main .items1 a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    padding: 4px;
+    padding-top: 2px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+main a:hover {
+    background-color: cyan;
+    color: black;
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/*main2*/
+
+.main2 {
+    display: flex;
+}
+
+.main2 .items2 {
+    padding: 4rem;
+}
+
+.main2 .items2 a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    padding: 4px;
+    padding-top: 2px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.main2 .items2 {
+    text-align: center;
+}
+
+.main2 a:hover {
+    background-color: cyan;
+    color: black;
+    font-size: 22px;
+}
+
+/*main3*/
+
+.main3 {
+    display: flex;
+}
+
+.main3 .items3 {
+    padding: 4rem;
+}
+
+.main3 .items3 a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    padding: 4px;
+    padding-top: 2px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+.main3 .items3 {
+    text-align: center;
+}
+
+.main3 a:hover {
+    background-color: cyan;
+    color: black;
+    font-size: 22px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: teal;
+    padding: 1rem;
+    color: white;
+}
+
+footer p {
+    font-size: 18px;
+}
